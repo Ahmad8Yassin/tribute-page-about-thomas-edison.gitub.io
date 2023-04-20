@@ -1,0 +1,87 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins',sans-serif;
+}
+
+body{
+  background-color: white;
+  padding: 5px;
+}
+#title{
+  text-align: center;
+  margin-top: 10px;
+}
+
+#description{
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+#main{
+  justify-content: center;
+  display: flexbox;
+  background-color: #DDDDDD;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#img-div{
+  background-color: white;
+  padding: 30px;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
+#image{
+  margin: auto;
+}
+
+#img-caption{
+  margin-top: 20px;
+  text-align: center;
+}
+
+ul{
+    display: flexbox;
+}
+
+li{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+#tribute-info{
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+#tribute-info-title{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+blockquote{
+  color: gray;
+  font-style: italic;
+  width: 400px;
+  display: flex;
+  margin: 10px auto;
+  padding: 5px;
+}
+
+footer{
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
